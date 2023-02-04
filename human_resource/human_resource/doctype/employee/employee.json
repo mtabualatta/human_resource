@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "E.####",
  "creation": "2023-01-15 00:31:46.619253",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -14,6 +15,7 @@
   "status",
   "employee_number",
   "date_of_birth",
+  "age",
   "date_of_joining",
   "mobile_department",
   "department",
@@ -38,7 +40,8 @@
   {
    "fieldname": "full_name",
    "fieldtype": "Data",
-   "label": "Full Name"
+   "label": "Full Name",
+   "read_only": 1
   },
   {
    "fieldname": "image",
@@ -82,11 +85,17 @@
    "fieldtype": "Table",
    "label": "Employee Education",
    "options": "Employee Education"
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Data",
+   "label": "Age",
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-01-15 00:39:37.078871",
+ "modified": "2023-02-01 11:21:36.100575",
  "modified_by": "Administrator",
  "module": "Human Resource",
  "name": "Employee",

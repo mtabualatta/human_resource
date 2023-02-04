@@ -1,28 +1,28 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "field:department_name",
- "creation": "2023-01-15 00:39:31.396817",
+ "autoname": "field:leave_type_name",
+ "creation": "2023-01-21 13:26:41.985297",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "department_name"
+  "leave_type_name"
  ],
  "fields": [
   {
-   "fieldname": "department_name",
+   "fieldname": "leave_type_name",
    "fieldtype": "Data",
-   "label": "Department Name",
+   "label": "Leave Type Name",
    "unique": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-01-25 13:24:24.708296",
+ "modified": "2023-01-21 13:46:04.523989",
  "modified_by": "Administrator",
  "module": "Human Resource",
- "name": "Department",
+ "name": "Leave Type",
  "owner": "Administrator",
  "permissions": [
   {
